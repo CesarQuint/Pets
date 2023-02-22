@@ -1,0 +1,220 @@
+div.catCanvas{
+  background-color: rgb(149, 223, 75);
+  height:45rem;
+  width: 90%;
+  margin: 2rem 2rem;
+}
+
+div.catContainer{
+  position: relative;
+}
+
+.head{
+  height: 10rem;
+  width: 12rem;
+  border-radius: 3rem;
+  position: absolute;
+  left:12rem;
+  top: 3rem;
+  background-color: #0f0f0f;
+  z-index: 50;
+}
+
+.head::after{
+  content: '';
+  position: absolute;
+  border-radius: 3rem;
+  height: 10rem;
+  width: 12rem;
+  background-image:
+  linear-gradient(to bottom right, transparent 50%,  rgb(250, 250, 250) 0),
+  linear-gradient(to top right, rgb(250, 250, 250) 50%, transparent 0);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: left, right;
+}
+
+.ears{
+  position: absolute;
+  left: 18rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 80px 75px;
+  border-color: transparent transparent #0f0f0f transparent;
+  
+}
+.ears::after{
+  content: '';
+  position: absolute;
+  right: 5rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 80px 0 0 75px;
+  border-color: transparent transparent transparent#0f0f0f;
+}
+.earsIn{
+  position: absolute;
+  left: 17.8rem;
+  top: .8rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 80px 75px;
+  border-color: transparent transparent #fa7f7f transparent;
+  
+}
+.earsIn::after{
+  content: '';
+  position: absolute;
+  right: 4.6rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 80px 0 0 75px;
+  border-color: transparent transparent transparent#fa7f7f;
+}
+
+.eyes{
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  position: absolute;
+  left:13.5rem;
+  top: 5.5rem;
+  background-color: #8ce4e7;
+  z-index: 60;
+}
+.eyes::after{
+  content: '';
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  position: absolute;
+  left:5rem;
+  background-color: #8ce4e7;
+}
+
+.eyesIn{
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  left:14rem;
+  top: 6rem;
+  background-color: #1b1b1b;
+  z-index: 60;
+}
+.eyesIn::after{
+  content: '';
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  left:5rem;
+  background-color:#1b1b1b;
+}
+.nose{
+  position: absolute;
+  top: 9rem;
+  left: 16.8rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1rem 1rem 0 1rem;
+  border-color: #dd3f8e transparent transparent transparent;
+  z-index: 50;
+}
+.nose::before{
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  top: -0.1rem;
+  left: -1.2rem;
+  border-style: solid;
+  border-width: 0 1.2rem 1.4rem 1.2rem;
+  border-color: transparent transparent  #dd3f8e transparent
+}
+.nose::after{
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+
+  left: -1.2rem;
+  border-style: solid;
+  border-width: 0 1.2rem 1.4rem 1.2rem;
+  border-color: transparent transparent  rgb(250, 250, 250) transparent
+}
+
+.chest{
+  position: absolute;
+  top: 12rem;
+  left: 14.5rem;
+  height: 12rem;
+  width: 7rem;
+  background-color:rgb(238, 238, 238) ;
+  z-index: 40;
+}
+.back{
+  clip-path: circle(50% at 50% 100%);
+  position: absolute;
+  top: 6.5rem;
+  left: 8rem;
+  height: 12rem;
+  width: 12rem;
+  background-color:#0f0f0f ;
+  z-index:38 ;
+
+}
+
+.bottom{
+  position: absolute;
+  top: 18rem;
+  left: 8.0rem;
+  height: 6rem;
+  width: 8rem;
+  background-color:#0f0f0f ;
+  z-index:38 ;
+}
+.rgShould{
+  clip-path: circle(50% at 50% 100%);
+  top: 11.7rem;
+  left: 20rem;
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  z-index: 40;
+  background-color: #0f0f0f;
+}
+.lfShould{
+  clip-path: circle(50% at 50% 100%);
+  top: 11.7rem;
+  left: 14rem;
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  z-index: 40;
+  background-color: #0f0f0f;
+}
+.rgArm{
+  top: 13.7rem;
+  left: 20rem;
+  position: absolute;
+  height: 11rem;
+  width: 2rem;
+  z-index: 40;
+  background-color: #0f0f0f;
+}
+
+.rgArm::after{
+  content: '';
+  right: 6rem;
+  position: absolute;
+  height: 11rem;
+  width: 2rem;
+  z-index: 40;
+  background-color: #0f0f0f;
+}
