@@ -21,6 +21,9 @@ function App() {
             <div className='rgShould'></div>
             <div className='lfShould'></div>
             <div className='rgArm'></div>
+            <div className='rpat'></div>
+            <div className='lpat'></div>
+            <div className='tail'></div>
           </section>
         </div>
       </div>

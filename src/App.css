@@ -218,3 +218,35 @@ div.catContainer{
   z-index: 40;
   background-color: #0f0f0f;
 }
+
+.rpat{
+  height: 2rem;
+  width: 2rem;
+  top: 24.5rem;
+  left: 20rem;
+  position: absolute;
+  background-color:rgb(250, 250, 250) ;
+  clip-path: circle(50% at 50% 0);
+  z-index: 50;
+}
+.lpat{
+  height: 2rem;
+  width: 2rem;
+  top: 24.5rem;
+  left: 14rem;
+  position: absolute;
+  background-color:rgb(250, 250, 250) ;
+  clip-path: circle(50% at 50% 0);
+  z-index: 50;
+}
+
+.tail{
+  position: absolute;
+  width: 6rem;
+  height: 1.5rem;
+  background-color: #0f0f0f;
+  top: 22.5rem;
+  left: 2rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
